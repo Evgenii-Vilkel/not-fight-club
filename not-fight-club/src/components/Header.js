@@ -5,7 +5,7 @@ function Header() {
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/сharacter">Character</a></li>
-                <li><a href="/ыettings">Settings</a></li>
+                <li><a href="/settings">Settings</a></li>
             </ul>
         </nav>
     </>

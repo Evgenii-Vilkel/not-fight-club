@@ -10,6 +10,7 @@ import BattlePage from './pages/BattlePage';
 
 function App() {
 const [isRegistered, setIsRegistered] = useState(false);
+const characterName = localStorage.getItem("characterName")
 
   return (
     <>
@@ -21,6 +22,7 @@ const [isRegistered, setIsRegistered] = useState(false);
                   <li><NavLink to="/character">Character</NavLink></li>
                   <li><NavLink to="/settings">Settings</NavLink></li>
               </ul>
+          <h3>Hello, {characterName}</h3>
           </nav>
         )}
 

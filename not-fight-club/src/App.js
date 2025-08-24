@@ -1,4 +1,4 @@
-import {BrowserRouter, Routes, Route, NavLink, Navigate} from "react-router-dom";
+import {HashRouter, Routes, Route, NavLink, Navigate} from "react-router-dom";
 import {useState, useEffect} from 'react';
 import './App.css';
 import RegistrationPage from './pages/RegistrationPage';
@@ -23,7 +23,7 @@ useEffect(() => {
 
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         {isRegistered && (
           <nav className="header">
             <h3>Hello, {characterName}</h3>
@@ -56,7 +56,7 @@ useEffect(() => {
           )}
         
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }

@@ -1,4 +1,7 @@
 import {useState} from "react";
+import character1 from '../img/character-image-1.png';
+import character2 from '../img/character-image-2.png';
+import character3 from '../img/character-image-3.png';
 
 function CharacterPage() {
     const characterName = localStorage.getItem("characterName");
@@ -6,11 +9,7 @@ function CharacterPage() {
     const losesCount = localStorage.getItem("losesCount");
     const [activeIndex, setActiveIndex] = useState(0);
 
-    const characterImages = [
-        "/img/character-img-1.png",
-        "/img/character-img-2.png",
-        "/img/character-img-3.png",
-    ];
+    const characterImages = [character1, character2, character3];
 
     return (
         <div className="character-page">

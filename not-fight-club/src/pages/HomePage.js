@@ -7,9 +7,9 @@ function HomePage() {
     }
 
     return (
-        <>
+        <div className="home-page">
             <button className="fight-btn" onClick={fightClick}>Fight!</button>
-        </>
+        </div>
     );
 }
 

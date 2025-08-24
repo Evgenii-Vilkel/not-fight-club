@@ -1,6 +1,6 @@
 function BattlePage() {
     return (
-        <>
+        <div className="battle-page">
             <div>
                 <img src="" alt="" />
                 <input type="progressbar" />
@@ -15,7 +15,7 @@ function BattlePage() {
                 <img src="" alt="" />
                 <input type="progressbar" />
             </div>
-        </>
+        </div>
     );
 }
 

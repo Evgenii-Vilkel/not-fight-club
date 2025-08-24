@@ -14,18 +14,21 @@ function RegistrationPage({setIsRegistered}) {
         }
 
         localStorage.setItem("characterName", characterName);
+        localStorage.setItem("isRegistered", "true")
 
         setIsRegistered(true);
-        localStorage.setItem("IsRegistered", "true")
-
         navigate("/")
     };
 
     return (
-        <form onSubmit={registerData}>
+        <form className="registration-page" onSubmit={registerData}>
             <h2>Create Your Character</h2>
-            <input type="text" id="name" value={characterName} onChange={(e) => setCharacterName(e.target.value)} />
-            <label htmlFor="name">Character Name</label>
+            <input 
+                type="text" 
+                value={characterName} 
+                onChange={(e) => setCharacterName(e.target.value)} 
+                placeholder="Character Name"
+            />
             <button type="submit">Create Character</button>
         </form>
     );

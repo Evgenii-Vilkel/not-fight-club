@@ -67,7 +67,7 @@ nav .active {
 }
 .character-image-wrapper {
   display: flex;
-  gap: 20px;
+  gap: 25px;
   justify-content: center;
   align-items: center;
   text-align: center;

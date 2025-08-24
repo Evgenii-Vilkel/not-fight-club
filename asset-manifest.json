@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/not-fight-club/static/css/main.4fb2a741.css",
+    "main.css": "/not-fight-club/static/css/main.ead9eaf9.css",
     "main.js": "/not-fight-club/static/js/main.7c8aa805.js",
     "static/js/453.a7ca748f.chunk.js": "/not-fight-club/static/js/453.a7ca748f.chunk.js",
     "static/media/character-image-1.png": "/not-fight-club/static/media/character-image-1.7a8d9969404118eb65e2.png",
     "static/media/character-image-2.png": "/not-fight-club/static/media/character-image-2.dd0ed8412e5894a59add.png",
     "static/media/character-image-3.png": "/not-fight-club/static/media/character-image-3.d5b121f479c85cdd4276.png",
     "index.html": "/not-fight-club/index.html",
-    "main.4fb2a741.css.map": "/not-fight-club/static/css/main.4fb2a741.css.map",
+    "main.ead9eaf9.css.map": "/not-fight-club/static/css/main.ead9eaf9.css.map",
     "main.7c8aa805.js.map": "/not-fight-club/static/js/main.7c8aa805.js.map",
     "453.a7ca748f.chunk.js.map": "/not-fight-club/static/js/453.a7ca748f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4fb2a741.css",
+    "static/css/main.ead9eaf9.css",
     "static/js/main.7c8aa805.js"
   ]
 }
